@@ -34,15 +34,19 @@ The algorithm modifies the **least significant bit** of each pixel's color chann
 from google.colab import files
 uploaded = files.upload()
 image_path = list(uploaded.keys())[0]
+
 🔐 2. Enter Your Secret Message
 
 secret_message = input("Enter your secret message: ")
+
 🧬 3. Encode the Message into the Image
 
 encode_image(image_path, secret_message, "encoded_image.png")
+
 🔍 4. Decode the Message from the Image
 
 decode_image("encoded_image.png")
+
 🧪 Example Output
 Enter your secret message: Hello World!
 ✅ Secret message hidden in encoded_image.png
