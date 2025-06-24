@@ -63,5 +63,8 @@ The end delimiter (1111111111111110) marks the stop of the message.
 📦 Requirements
 
 pip install pillow numpy
-Or if you're using Google Colab:
+
+Or 
+if you're using Google Colab:
+
 !pip install pillow numpy
