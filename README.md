@@ -48,6 +48,7 @@ encode_image(image_path, secret_message, "encoded_image.png")
 decode_image("encoded_image.png")
 
 🧪 Example Output
+
 Enter your secret message: Hello World!
 ✅ Secret message hidden in encoded_image.png
 
